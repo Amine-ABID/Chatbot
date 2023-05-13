@@ -1,0 +1,166 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+
+    "tag": "blockchain",
+      "patterns": [
+        "What is blockchain?",
+        "Tell me about blockchain technology.",
+        "How does blockchain work?",
+        "What are the key features of blockchain?",
+        "What are the advantages of using blockchain?",
+        "What are the limitations of blockchain?"
+      ],
+      "responses": [
+        "Blockchain is a distributed and decentralized ledger that securely records transactions across a network of computers.",
+        "Blockchain technology uses cryptography and consensus algorithms to ensure data integrity, transparency, and security.",
+        "Blockchain works by creating a chain of blocks, where each block contains a set of transactions that are added to the ledger through a consensus mechanism.",
+        "Key features of blockchain include decentralization, transparency, immutability, and security.",
+        "Advantages of using blockchain include increased transparency, improved security, reduced intermediaries, and enhanced efficiency.",
+        "Limitations of blockchain include scalability challenges, high energy consumption, regulatory concerns, and potential for privacy breaches."
+      ]
+    },
+    {
+      "tag": "smart_contracts",
+      "patterns": [
+        "What are smart contracts?",
+        "How do smart contracts work?",
+        "What are the use cases of smart contracts?",
+        "What programming languages are used to write smart contracts?",
+        "What are the benefits of using smart contracts?"
+      ],
+      "responses": [
+        "Smart contracts are self-executing contracts with the terms of the agreement directly written into code on the blockchain.",
+        "Smart contracts work by automatically enforcing the predefined rules and conditions written in the code, without the need for intermediaries.",
+        "Use cases of smart contracts include digital identity verification, supply chain management, real estate transactions, and decentralized finance (DeFi).",
+        "Smart contracts can be written in various programming languages, depending on the blockchain platform, such as Solidity for Ethereum, Chaincode for Hyperledger Fabric, and Scilla for Zilliqa.",
+        "Benefits of using smart contracts include increased efficiency, reduced costs, enhanced transparency, and improved security."
+      ]
+    },
+    {
+      "tag": "consensus_algorithms",
+      "patterns": [
+        "What are consensus algorithms in blockchain?",
+        "How do consensus algorithms work?",
+        "What are the types of consensus algorithms used in blockchain?",
+        "What are the advantages and disadvantages of different consensus algorithms?"
+      ],
+      "responses": [
+        "Consensus algorithms in blockchain are used to achieve agreement among network participants on the state of the blockchain.",
+        "Consensus algorithms work by allowing network participants to agree on the validity of transactions and reach a consensus on the state of the ledger.",
+        "Types of consensus algorithms used in blockchain include Proof of Work (PoW), Proof of Stake (PoS), Delegated Proof of Stake (DPoS), and Practical Byzantine Fault Tolerance (PBFT), among others.",
+        "Advantages and disadvantages of different consensus algorithms depend on factors such as security, scalability, energy efficiency, and decentralization."
+      ]
+    },
+    {
+      "tag": "data_layer",
+      "patterns": [
+        "What is the data layer in blockchain?",
+        "How is data stored in blockchain?",
+        "What is a Merkle tree in blockchain?",
+        "What are the challenges and solutions for data storage in blockchain?"
+      ],
+      "responses": [
+        "The data layer in blockchain handles the storage and management of data on the blockchain.",
+        "Data is stored in blockchain using a distributed and decentralized approach, where each block contains a set of transactions or data records.",
+        "A Merkle tree is a tree structure used in blockchain to verify the integrity of data in a block by creating a cryptographic hash of the data.",
+        "Challenges in data storage in blockchain include scalability, privacy, and cost, and solutions include sharding, encryption, and off-chain storage."
+      ]
+    },
+    {
+      "tag": "network_layer",
+      "patterns": [
+        "What is the network layer in blockchain?",
+        "How does communication work in blockchain?",
+        "What is a peer-to-peer (P2P) network?",
+        "What are the communication mechanisms used in blockchain?"
+      ],
+      "responses": [
+        "The network layer in blockchain facilitates communication and data exchange among nodes in the network.",
+        "Communication in blockchain involves the transmission of transactions and blocks among network nodes using consensus protocols.",
+        "A peer-to-peer (P2P) network is a decentralized network where nodes communicate directly without the need for intermediaries.",
+        "Communication mechanisms used in blockchain include gossip protocols, flooding, and routing algorithms, among others."
+      ]
+    } 
+  ]
+}
